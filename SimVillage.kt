@@ -1,6 +1,6 @@
 fun main() {
-    val numLetters = "Mississippi".count({ letter ->
-        letter == 's'
-    })
-    println(numLetters)
+    println({
+        val currentYear = 2018
+        "歡迎來到SimVillage，Mayer! (copyright $currentYear)"
+    }())
 }
