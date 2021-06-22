@@ -9,7 +9,7 @@ fun main() {
     參考課本5-9*/
 }
 
-fun runSimulation(playerName: String, greetingFunction: (String, Int) -> String)
+inline fun runSimulation(playerName: String, greetingFunction: (String, Int) -> String)
 {
     val numBuildings = (1..3).shuffled().last()
     println(greetingFunction(playerName, numBuildings))
